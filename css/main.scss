@@ -1,0 +1,86 @@
+---
+# Front matter comment to ensure Jekyll properly reads file as a sass file.
+---
+
+//header
+$header-color: white; //#cfd1d3;
+$header-height: 115px;
+
+.navbar-fixed-top {
+    height: $header-height;
+    background-color: $header-color;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 8px 0px 0px 15px;
+}
+//end header
+
+body {
+  margin: 0px;
+  padding: $header-height 0px 0px 0px;
+}
+
+//mobile view
+@media (max-width: 767px) {
+  .nav-menu {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    padding: 3px;
+    color: #000;
+    width: 40px;
+    text-align: center;
+  }
+  //turn off the weather widget
+  #weather {
+    display: none;
+  }
+  //turn off the side navbar
+  .navbar-as-sidebar {
+    display: none;
+  }
+  //turn on the header navbar
+  .navbar-in-header {
+      position: relative;
+      top: 65px;
+  }
+}
+
+//desktop view
+@media (min-width: 767px) {
+  .nav-menu .menu-list .menu-content {
+    display: block;
+  }
+  .main-content {
+  	width:calc(100% - 250px);
+  	float: right;
+  }
+  //turn off header navbar
+  .navbar-in-header {
+    display: none;
+  }
+  .hamburger {
+    display: none;
+  }
+  #weather {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    color: #000;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    .currently {
+      text-transform: lowercase;
+    }
+  }
+}
