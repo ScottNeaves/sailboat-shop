@@ -14,6 +14,12 @@ $header-height: 115px;
 .navbar-fixed-top .navbar-brand {
     padding: 8px 0px 0px 15px;
 }
+.banner {
+  text-align: right;
+  padding-right: 5px;
+  background: lightgray;
+  border-bottom: 1px solid black;
+}
 //end header
 
 body {
@@ -59,9 +65,14 @@ body {
   .nav-menu .menu-list .menu-content {
     display: block;
   }
-  .main-content {
+  #main {
   	width:calc(100% - 250px);
   	float: right;
+  }
+  .navbar-as-sidebar {
+      position: absolute;
+      overflow-y: scroll;
+      height: 100%;
   }
   //turn off header navbar
   .navbar-in-header {
