@@ -24,3 +24,20 @@ $(document).ready(function() {
     }
   });
 });
+
+// media query event handler
+if (matchMedia) {
+  var mq = window.matchMedia("(min-width: 767px)");
+  mq.addListener(WidthChange);
+  WidthChange(mq);
+}
+
+// media query change
+function WidthChange(mq) {
+  if (mq.matches) {
+    $('#products .item').removeClass('list-group-item');
+    $('#products .item').addClass('grid-group-item');
+  } else {
+    $('#products .item').addClass('list-group-item');
+  }
+}

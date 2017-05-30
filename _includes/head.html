@@ -12,13 +12,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Custom CSS -->
-  <link href="css/hamburgers.css" rel="stylesheet">
-  <link href="css/sidebar.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "/css/hamburgers.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/sidebar.css" | prepend: site.baseurl }}"/>
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"/>
+    <link rel="stylesheet" href="{{ "/css/hobie-cat.css" | prepend: site.baseurl }}"/>
 
   <!-- FontAwesome -->
-  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
 
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+  <link rel="shortcut icon" href="{{ "assets/favicon.png" | prepend: site.baseurl }}"/>
 
 </head>
