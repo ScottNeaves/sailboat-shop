@@ -26,6 +26,12 @@ github_username:  jekyll
 baseurl: ""
 include: ['_pages']
 
+collections:
+  hobie-boats:
+    output: true
+    permalink: /hobie-cat/boats/:path/
+
+
 # Build settings
 markdown: kramdown
 theme: minima
