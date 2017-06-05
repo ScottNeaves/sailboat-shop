@@ -1,0 +1,119 @@
+- name: Bravo
+  slug: bravo
+  short-description: The Bravo is ideal for sailors of all skill levels. Stable and safe for the total novice yet plenty entertaining for a seasoned multi-huller on a storm-tossed day.
+  long-description: The Hobie Bravo provides the perfect sailing platform. Its rugged, rotomolded polyethylene hull encourages picnic outings to inviting beaches and removes all docking anxieties, irrespective of wind speed. The Bravo’s generously cut, square-top mainsail efficiently captures zephyrs while automatically twisting off when puffs hit, helping to keep the boat flat. The efficient A-frame mast is easy to step, and the boomless, roller-furling, multicolored Dacron mainsail makes reefing easy and allows for consequence-free gybes.
+  crew-size: 1-2
+  length: 12 feet
+  weight: 195 lbs
+  price: $3,699.00
+  cover-photo: bravo/bravo.png
+  photos:
+    - bravo/bravo-in-action-1.jpg
+    - bravo/bravo-in-action-2.jpg
+    - bravo/bravo-in-action-3.jpg
+    - bravo/bravo-in-action-4.jpg
+
+- name: Getaway
+  slug: getaway
+  short-description: Take the party on the water with the Hobie Getaway. When the agenda involves sailing with friends and family, the Hobie Getaway is a sure-fire ticket to multihull fun.
+  long-description: Stir in the boat’s performance-minded symmetrically shaped hulls, its efficient, mainsail-driven sailplan and its roller-furling jib and you quickly discover a sailing pedigree that leaves “party boats” stalled out. With the Getaway, there’s no worry about impromptu raft-ups, beaching or docking; its impact-resistant, rotomolded polyethylene hull provides years’ worth of family fun. But most impressive is the Getaway’s awesome value—expect great times for a modest price tag.
+  crew-size: 3-4
+  length: 16 feet, 7 inches
+  weight: 390 lbs
+  price: $8,399.00
+  cover-photo: getaway/getaway.png
+  photos:
+   - getaway/getaway-in-action-1.jpg
+   - getaway/getaway-in-action-2.jpg
+   - getaway/getaway-in-action-3.jpg
+   - getaway/getaway-in-action-4.jpg
+
+- name: Wave
+  slug: wave
+  short-description: The Hobie Wave is an easy- to-sail, easy-to-rig speedster that will have you smiling. Fun for the family and exciting for the juniors while forgiving enough for the newly initiated, the Hobie Wave is the ideal must-go-sailing-now catamaran.
+  long-description: The Hobie Wave is an easy- to-sail, easy-to-rig speedster that will have you smiling. Fun for the family and exciting for the juniors while forgiving enough for the newly initiated, the Hobie Wave is the ideal must-go-sailing-now catamaran.
+  crew-size: 2
+  length: 13 feet
+  weight: 245 lbs
+  price: $5,799.00
+  cover-photo: wave/wave.png
+  photos:
+   - wave/wave-in-action-1.jpg
+   - wave/wave-in-action-2.jpg
+   - wave/wave-in-action-3.jpg
+   - wave/wave-in-action-4.jpg
+
+- name: T2
+  slug: t2
+  short-description: The T2 is the benchmark boat for performance rotomolded sailing. With its two-layer rotomolded polyethylene hulls, the T2 is the ideal boat to sail with the family, among friends or in clubs.
+  long-description: The T2 is the benchmark boat for performance rotomolded sailing. With its two-layer rotomolded polyethylene hulls, the T2 is the ideal boat to sail with the family, among friends or in clubs.
+  crew-size: 3-4
+  length: 16 feet
+  weight: 388 lbs
+  price: $8,399.00
+  cover-photo: t2/t2.png
+  photos:
+   - t2/t2-in-action-1.jpg
+   - t2/t2-in-action-2.jpg
+   - t2/t2-in-action-3.jpg
+   - t2/t2-in-action-4.jpg
+
+- name: Hobie 16
+  slug: hobie-16
+  short-description: The Hobie 16 revolutionized multihull sailing. The Hobie 16 was unleashed on the Southern California beach scene in 1970 and sailing was instantly transformed.
+  long-description: The Hobie 16 revolutionized multihull sailing. The Hobie 16 was unleashed on the Southern California beach scene in 1970 and sailing was instantly transformed.
+  crew-size: 1-4
+  length: 16 feet 7 inches
+  weight: 320 lbs
+  price: $8,399.00
+  cover-photo: hobie-16/hobie-16.png
+  photos:
+   - hobie-16/hobie-16-in-action-1.jpg
+   - hobie-16/hobie-16-in-action-2.jpg
+   - hobie-16/hobie-16-in-action-3.jpg
+   - hobie-16/hobie-16-in-action-4.jpg
+
+- name: Wild Cat
+  slug: wild-cat
+  short-description: The Wild Cat is your ticket to all-out thrills. Simply put, speed is addictive. Savor some windy-day trapeze time and your brain quickly acclimates to quick closing times, and rapidly advancing horizons.
+  long-description: The Wild Cat is your ticket to all-out thrills. Simply put, speed is addictive. Savor some windy-day trapeze time and your brain quickly acclimates to quick closing times, and rapidly advancing horizons.
+  crew-size: 2-3
+  length: 18 feet
+  weight: 397 lbs
+  price: $8,399.00
+  cover-photo: wild-cat/wild-cat.png
+  photos:
+   - wild-cat/wild-cat-in-action-1.jpg
+   - wild-cat/wild-cat-in-action-2.jpg
+   - wild-cat/wild-cat-in-action-3.jpg
+   - wild-cat/wild-cat-in-action-4.jpg
+
+- name: Mirage Adventure Island
+  slug: mirage-adventure-island
+  short-description: An absolute joy on the water, the Hobie Mirage Adventure Island is impressively approachable.
+  long-description: An absolute joy on the water, the Hobie Mirage Adventure Island is impressively approachable.
+  crew-size: 1
+  length: 16 feet 7 inches
+  weight: 102 lbs
+  price: $8,399.00
+  cover-photo: mirage-adventure-island/mirage-adventure-island.png
+  photos:
+   - mirage-adventure-island/mirage-adventure-island-in-action-1.jpg
+   - mirage-adventure-island/mirage-adventure-island-in-action-2.jpg
+   - mirage-adventure-island/mirage-adventure-island-in-action-3.jpg
+   - mirage-adventure-island/mirage-adventure-island-in-action-4.jpg
+
+- name: Mirage Tandem Island
+  slug: mirage-tandem-island
+  short-description: Sailing has never seemed so simple. When the wind blows, the Tandem Island flies across the water, powered by an expansive, easily tended mainsail.
+  long-description: Sailing has never seemed so simple. When the wind blows, the Tandem Island flies across the water, powered by an expansive, easily tended mainsail.
+  crew-size: 1-2
+  length: 18 feet 6 inches
+  weight: 130 lbs
+  price: $8,399.00
+  cover-photo: mirage-tandem-island/mirage-tandem-island.png
+  photos:
+   - mirage-tandem-island/mirage-tandem-island-in-action-1.jpg
+   - mirage-tandem-island/mirage-tandem-island-in-action-2.jpg
+   - mirage-tandem-island/mirage-tandem-island-in-action-3.jpg
+   - mirage-tandem-island/mirage-tandem-island-in-action-4.jpg

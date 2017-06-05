@@ -1,48 +1,40 @@
 ---
 layout: home
 ---
+
+{% assign boats = site.data.hobie-boats | where:'name', page.title %}
+{% assign boat = boats[0] %}
 <div class="card">
 			<div class="container-fliud">
 				<div class="wrapper row">
 					<div class="preview col-md-6">
 
 						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="{{ "/assets/" | append: page.pic-1 | prepend: site.baseurl }}"/></div>
-						  <div class="tab-pane" id="pic-2"><img src="{{ "/assets/" | append: page.pic-2 | prepend: site.baseurl }}"/></div>
-						  <div class="tab-pane" id="pic-3"><img src="{{ "/assets/" | append: page.pic-3 | prepend: site.baseurl }}"/></div>
-						  <div class="tab-pane" id="pic-4"><img src="{{ "/assets/" | append: page.pic-4 | prepend: site.baseurl }}"/></div>
-						  <div class="tab-pane" id="pic-5"><img src="{{ "/assets/" | append: page.pic-5 | prepend: site.baseurl }}"/></div>
+							<div class="tab-pane active" id="cover-photo"><img src="{{ "/assets/" | append: boat.cover-photo | prepend: site.baseurl }}"/></div>
+							{% for photo in boat.photos %}
+								<div class="tab-pane" id="pic-{{ forloop.index }}"><img src="{{ "/assets/" | append: photo | prepend: site.baseurl }}"/></div>
+							{% endfor %}
 						</div>
 						<ul class="preview-thumbnail nav nav-tabs">
-						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="{{ "/assets/" | append: page.pic-1 | prepend: site.baseurl }}"/></a></li>
-						  <li><a data-target="#pic-2" data-toggle="tab"><img src="{{ "/assets/" | append: page.pic-2 | prepend: site.baseurl }}"/></a></li>
-						  <li><a data-target="#pic-3" data-toggle="tab"><img src="{{ "/assets/" | append: page.pic-3 | prepend: site.baseurl }}"/></a></li>
-						  <li><a data-target="#pic-4" data-toggle="tab"><img src="{{ "/assets/" | append: page.pic-4 | prepend: site.baseurl }}"/></a></li>
-						  <li><a data-target="#pic-5" data-toggle="tab"><img src="{{ "/assets/" | append: page.pic-5 | prepend: site.baseurl }}"/></a></li>
+						  <li class="active"><a data-target="#cover-photo" data-toggle="tab"><img src="{{ "/assets/" | append: boat.cover-photo | prepend: site.baseurl }}"/></a></li>
+							{% for photo in boat.photos %}
+								<li><a data-target="#pic-{{ forloop.index }}" data-toggle="tab"><img src="{{ "/assets/" | append: photo | prepend: site.baseurl }}"/></a></li>
+							{% endfor %}
 						</ul>
 
 					</div>
 					<div class="details col-md-6">
-						<h3 class="product-title">{{page.title}}</h3>
-						<div class="rating">
-							<div class="stars">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-							</div>
-						</div>
-						<p class="product-description">{{page.product-description}}</p>
+						<h3 class="product-title">{{boat['name']}}</h3>
+						<p class="product-description">{{boat.long-description}}</p>
 						<strong>Specifications:</strong>
 						<p class="product-description">
 							<ul>
-								<li>Crew size: {{page.crew-size}}</li>
-								<li>Length: {{page.length}}</li>
-								<li>Weight: {{page.weight}}</li>
+								<li>Crew size: {{boat.crew-size}}</li>
+								<li>Length: {{boat.length}}</li>
+								<li>Weight: {{boat.weight}}</li>
 							</ul>
 						</p>
-						<h4 class="price">current price: <span>{{page.price}}</span></h4>
+						<h4 class="price">current price: <span>{{boat.price}}</span></h4>
 					</div>
 				</div>
 			</div>
