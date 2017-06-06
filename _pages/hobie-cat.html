@@ -1,31 +1,6 @@
 ---
-layout: home
+layout: product-grid
 title: Hobie Cat Sailboats
 permalink: /hobie-cat/
+product-collection: hobie-boats
 ---
-
-<div class="page-header text-center">
-  <h2>Hobie Cat Sailboats</h2>
-</div>
-<div id="products" class="row list-group">
-  {% for boat in site.data.hobie-boats %}
-    <div class="item  col-xs-4 col-lg-4">
-      <a href="{{ "/hobie-cat/boats/" | append: boat.slug | prepend: site.baseurl }}">
-        <div class="thumbnail">
-          <img class="group list-group-image" src="{{ "/assets/" | append: boat.cover-photo | prepend: site.baseurl }}" alt="product image" />
-          <div class="caption">
-            <h4 class="group inner list-group-item-heading">{{ boat.name }}</h4>
-            <p class="group inner list-group-item-text">
-              {{ boat.short-description }}
-            </p>
-            <div class="row">
-              <div class="col-xs-12 col-md-6 pull-right">
-                <p class="lead">{{ boat.price }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-  {% endfor %}
-</div>

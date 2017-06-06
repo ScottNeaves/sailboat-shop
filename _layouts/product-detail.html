@@ -2,7 +2,7 @@
 layout: home
 ---
 
-{% assign boats = site.data.hobie-boats | where:'name', page.title %}
+{% assign boats = site.data[page.collection] | where:'name', page.title %}
 {% assign boat = boats[0] %}
 <div class="card">
 			<div class="container-fliud">

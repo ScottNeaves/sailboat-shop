@@ -27,9 +27,13 @@ baseurl: ""
 include: ['_pages']
 
 collections:
+  used-boats:
+    output: true
+    permalink: /used-boats/:path/
   hobie-boats:
     output: true
-    permalink: /hobie-cat/boats/:path/
+    permalink: /hobie-boats/:path/
+
 
 
 # Build settings

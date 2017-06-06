@@ -1,3 +1,19 @@
+# - name: This Is An Example Boat
+#   slug: this-is-an-example-boat
+#   short-description: This short description should be shorter than 163 characters.
+#   long-description: Long description should be shorter than ~500 characters.
+#   crew-size: 1-2
+#   length: 12 feet
+#   weight: 195 lbs
+#   price: $3,699.00
+#   **Note: paths to photos are all relative to the /assets directory
+#   cover-photo: bravo/bravo.png
+#   photos:
+#     - bravo/bravo-in-action-1.jpg
+#     - bravo/bravo-in-action-2.jpg
+#     - bravo/bravo-in-action-3.jpg
+#     - bravo/bravo-in-action-4.jpg
+
 - name: Bravo
   slug: bravo
   short-description: The Bravo is ideal for sailors of all skill levels. Stable and safe for the total novice yet plenty entertaining for a seasoned multi-huller on a storm-tossed day.

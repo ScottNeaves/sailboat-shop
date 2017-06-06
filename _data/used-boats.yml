@@ -1,0 +1,14 @@
+- name: Used Boat 1
+  slug: used-boat-1
+  short-description: Used Boat 1 is lightly used and perfect for a dreamy sailing afternoon with you on board!
+  long-description: Used Boat 1 is lightly used and perfect for a dreamy sailing afternoon with you on board! And many more details
+  crew-size: 1-2
+  length: 12 feet
+  weight: 195 lbs
+  price: $3,699.00
+  cover-photo: used-boat-1/used-boat-1.jpg
+  photos:
+    - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg
