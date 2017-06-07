@@ -1,4 +1,4 @@
 ---
-title: Wave
+slug: wave
 layout: product-detail
 ---

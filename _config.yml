@@ -27,6 +27,9 @@ baseurl: ""
 include: ['_pages']
 
 collections:
+  tohatsu-outboards:
+    output: true
+    permalink: /tohatsu-outboards/:path/
   used-boats:
     output: true
     permalink: /used-boats/:path/
@@ -34,6 +37,13 @@ collections:
     output: true
     permalink: /hobie-boats/:path/
 
+# Experimental way to generate product detail pages for each product directly from a data file, eliminating the need to have a file for each one.
+# See _plugins/data_page_generator
+# page_gen:
+#   - data: 'hobie-boats'
+#     template: 'product-detail'
+#     name: 'slug'
+#     dir: 'hobie-boats'
 
 
 # Build settings

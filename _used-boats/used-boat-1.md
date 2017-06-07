@@ -1,4 +1,4 @@
 ---
-title: Used Boat 1
+slug: used-boat-1
 layout: product-detail
 ---

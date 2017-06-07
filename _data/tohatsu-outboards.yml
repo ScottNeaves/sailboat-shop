@@ -1,0 +1,71 @@
+- name: 9.8 HP Tohatsu Outboard
+  slug: 9-8hp
+  short-description: 9.8 HP, just enough oomph to get you zipping around the harbor.
+  long-description: 9.8 HP, just enough oomph to get you zipping around the harbor. More details.
+  price: $3,699.00
+  cover-photo: tohatsu/9-8.jpg
+  photos:
+    # - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg
+
+- name: 8 HP Tohatsu Outboard
+  slug: 8hp
+  short-description: 8 HP, just enough oomph to get you zipping around the harbor.
+  long-description: 8 HP, just enough oomph to get you zipping around the harbor. More details.
+  price: $3,699.00
+  cover-photo: tohatsu/8.png
+  photos:
+    # - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg
+
+- name: 6 HP Tohatsu Outboard
+  slug: 6hp
+  short-description: 6 HP, just enough oomph to get you zipping around the harbor.
+  long-description: 6 HP, just enough oomph to get you zipping around the harbor. More details.
+  price: $3,699.00
+  cover-photo: tohatsu/6.jpg
+  photos:
+    # - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg
+
+- name: 4 HP Tohatsu Outboard
+  slug: 4hp
+  short-description: 4 HP, just enough oomph to get you zipping around the harbor.
+  long-description: 4 HP, just enough oomph to get you zipping around the harbor. More details.
+  price: $3,699.00
+  cover-photo: tohatsu/4.jpg
+  photos:
+    # - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg
+
+- name: 3.5 HP Tohatsu Outboard
+  slug: 3-5hp
+  short-description: 3.5 HP, just enough oomph to get you zipping around the harbor.
+  long-description: 3.5 HP, just enough oomph to get you zipping around the harbor. More details.
+  price: $3,699.00
+  cover-photo: tohatsu/3-5.jpg
+  photos:
+    # - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg
+
+- name: 2.5 HP Tohatsu Outboard
+  slug: 2-5hp
+  short-description: 2.5 HP, just enough oomph to get you around the harbor.
+  long-description: 2.5 HP, just enough oomph to get you around the harbor. More details.
+  price: $3,699.00
+  cover-photo: tohatsu/2-5.jpg
+  photos:
+    # - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg

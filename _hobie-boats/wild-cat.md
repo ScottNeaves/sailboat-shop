@@ -1,4 +1,4 @@
 ---
-title: Wild Cat
+slug: wild-cat
 layout: product-detail
 ---

@@ -1,4 +1,4 @@
 ---
-slug: getaway
+slug: 6hp
 layout: product-detail
 ---

@@ -2,39 +2,32 @@
 layout: home
 ---
 
-{% assign boats = site.data[page.collection] | where:'name', page.title %}
-{% assign boat = boats[0] %}
+{% assign products = site.data[page.collection] | where:'slug', page.slug %}
+{% assign product = products[0] %}
 <div class="card">
 			<div class="container-fliud">
 				<div class="wrapper row">
 					<div class="preview col-md-6">
 
 						<div class="preview-pic tab-content">
-							<div class="tab-pane active" id="cover-photo"><img src="{{ "/assets/" | append: boat.cover-photo | prepend: site.baseurl }}"/></div>
-							{% for photo in boat.photos %}
+							<div class="tab-pane active" id="cover-photo"><img src="{{ "/assets/" | append: product.cover-photo | prepend: site.baseurl }}"/></div>
+							{% for photo in product.photos %}
 								<div class="tab-pane" id="pic-{{ forloop.index }}"><img src="{{ "/assets/" | append: photo | prepend: site.baseurl }}"/></div>
 							{% endfor %}
 						</div>
 						<ul class="preview-thumbnail nav nav-tabs">
-						  <li class="active"><a data-target="#cover-photo" data-toggle="tab"><img src="{{ "/assets/" | append: boat.cover-photo | prepend: site.baseurl }}"/></a></li>
-							{% for photo in boat.photos %}
+						  <li class="active"><a data-target="#cover-photo" data-toggle="tab"><img src="{{ "/assets/" | append: product.cover-photo | prepend: site.baseurl }}"/></a></li>
+							{% for photo in product.photos %}
 								<li><a data-target="#pic-{{ forloop.index }}" data-toggle="tab"><img src="{{ "/assets/" | append: photo | prepend: site.baseurl }}"/></a></li>
 							{% endfor %}
 						</ul>
 
 					</div>
 					<div class="details col-md-6">
-						<h3 class="product-title">{{boat['name']}}</h3>
-						<p class="product-description">{{boat.long-description}}</p>
-						<strong>Specifications:</strong>
-						<p class="product-description">
-							<ul>
-								<li>Crew size: {{boat.crew-size}}</li>
-								<li>Length: {{boat.length}}</li>
-								<li>Weight: {{boat.weight}}</li>
-							</ul>
-						</p>
-						<h4 class="price">current price: <span>{{boat.price}}</span></h4>
+						<h3 class="product-title">{{product['name']}}</h3>
+						<p class="product-description">{{product.long-description}}</p>
+							{{content}}
+						<h4 class="price">current price: <span>{{product.price}}</span></h4>
 					</div>
 				</div>
 			</div>

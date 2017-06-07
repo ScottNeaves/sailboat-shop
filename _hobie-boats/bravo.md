@@ -1,4 +1,4 @@
 ---
-title: Bravo
-layout: product-detail
+slug: bravo
+layout: boat-product-detail
 ---

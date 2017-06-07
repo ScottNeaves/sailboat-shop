@@ -1,4 +1,4 @@
 ---
-title: Hobie 16
+slug: hobie-16
 layout: product-detail
 ---

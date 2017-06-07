@@ -1,4 +1,4 @@
 ---
-title: Mirage Tandem Island
+slug: mirage-tandem-island
 layout: product-detail
 ---

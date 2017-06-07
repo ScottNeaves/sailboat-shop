@@ -1,4 +1,4 @@
 ---
-title: Mirage Adventure Island
+slug: mirage-adventure-island
 layout: product-detail
 ---
