@@ -30,12 +30,18 @@ collections:
   tohatsu-outboards:
     output: true
     permalink: /tohatsu-outboards/:path/
+  sailboat-parts-and-accessories:
+    output: true
+    permalink: /sailboat-parts-and-accessories/:path/
   used-boats:
     output: true
     permalink: /used-boats/:path/
   hobie-boats:
     output: true
     permalink: /hobie-boats/:path/
+  sailboat-repairs-and-consulting:
+    output: true
+    permalink: /sailboat-repairs-and-consulting/:path/
 
 # Experimental way to generate product detail pages for each product directly from a data file, eliminating the need to have a file for each one.
 # See _plugins/data_page_generator

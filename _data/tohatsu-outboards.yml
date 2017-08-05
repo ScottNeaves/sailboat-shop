@@ -34,6 +34,30 @@
     # - used-boat-1/used-boat-1-in-action-3.jpg
     # - used-boat-1/used-boat-1-in-action-4.jpg
 
+- name: 5 HP LPG Tohatsu Outboard
+  slug: 5hp-lpg
+  short-description: 5 HP, powered by Liquid Propane Gas.
+  long-description: 5 HP, powered by Liquid Propane Gas.
+  price: $3,699.00
+  cover-photo: tohatsu/5-lpg.jpg
+  photos:
+    # - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg
+
+- name: 5 HP Tohatsu Outboard
+  slug: 5hp
+  short-description: 5 HP, just enough oomph to get you zipping around the harbor.
+  long-description: 5 HP, just enough oomph to get you zipping around the harbor. More details.
+  price: $3,699.00
+  cover-photo: tohatsu/5.jpg
+  photos:
+    # - used-boat-1/used-boat-1-in-action-1.jpg
+    # - used-boat-1/used-boat-1-in-action-2.jpg
+    # - used-boat-1/used-boat-1-in-action-3.jpg
+    # - used-boat-1/used-boat-1-in-action-4.jpg
+
 - name: 4 HP Tohatsu Outboard
   slug: 4hp
   short-description: 4 HP, just enough oomph to get you zipping around the harbor.
