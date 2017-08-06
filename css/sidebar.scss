@@ -19,7 +19,6 @@ $sidebar-color: gray;
   padding: 0px;
   margin: 0px;
   line-height: 35px;
-  cursor: pointer;
 }
 .nav-menu ul .active,
 .nav-menu li .active {
@@ -27,12 +26,11 @@ $sidebar-color: gray;
   background-color: #4f5b69;
 }
 .nav-menu li {
-  padding-left: 0px;
-  border-left: 3px solid $sidebar-color;
+  padding-left: 5px;
+  //border-left: 3px solid $sidebar-color;
   border-bottom: 1px solid #23282e;
 }
 .nav-menu a li {
-  text-decoration: none;
   color: #e1ffff;
 }
 .nav-menu li a i {
@@ -40,14 +38,23 @@ $sidebar-color: gray;
   width: 20px;
   padding-right: 20px;
 }
+
+.nav-menu a {
+  text-decoration:  none;
+}
 .nav-menu li:hover {
-  border-left: 3px solid #d19b3d;
-  background-color: #4f5b69;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  background-color: black;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.nav-menu li:hover.category-header {
+  background-color: $sidebar-color;
+  cursor: default;
 }
 .menu-list ul ul {
   padding-left: 15px;
