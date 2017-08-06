@@ -48,8 +48,8 @@ body {
   .hamburger:focus {
     outline: 0;
   }
-  //turn off the weather widget
-  #weather {
+  //turn off the header info
+  .header-info {
     display: none;
   }
   //turn off the side navbar
@@ -60,6 +60,12 @@ body {
   .navbar-in-header {
       position: relative;
       top: 65px;
+  }
+  .navbar-brand {
+    img {
+      margin-top: 15px;
+      width: 300px;
+    }
   }
 }
 
@@ -84,17 +90,27 @@ body {
   .hamburger {
     display: none;
   }
-  #weather {
+
+  .header-info {
     display: block;
-    cursor: pointer;
-    position: absolute;
-    right: 10px;
-    color: #000;
-    width: 110px;
-    height: 110px;
-    text-align: center;
-    .currently {
-      text-transform: lowercase;
+    float: right;
+    margin-right: 10px;
+    .phone {
+      text-align: right;
+      color: #00827E;
+      font-weight: bold;
+      font-family: Helvetica, Arial, sans-serif;
+      margin-top: 10px;
+    }
+    .address {
+      text-align: right;
+      margin-top: 5px;
+    }
+  }
+
+  .navbar-brand {
+    img {
+      width: 400px;
     }
   }
 }

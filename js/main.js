@@ -13,9 +13,10 @@ $(document).ready(function() {
     woeid: '',
     unit: 'f',
     success: function(weather) {
-      html = '<h4>'+weather.temp+'&deg;'+weather.units.temp+'</h4>';
-      html += '<h4 class="currently">'+weather.currently+'</h4>';
-      html += '<h4>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</h4>';
+      html = '<em><h5>Austin Conditions: '
+      html += weather.temp+'&deg;'+weather.units.temp+', ';
+      html += weather.currently+', ';
+      html += 'wind '+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</h5></em>';
 
       $("#weather").html(html);
     },
