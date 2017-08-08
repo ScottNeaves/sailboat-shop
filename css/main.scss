@@ -18,7 +18,6 @@ $header-height: 115px;
   text-align: right;
   padding-right: 5px;
   background: lightgray;
-  border-bottom: 1px solid black;
 }
 //end header
 
@@ -26,6 +25,14 @@ body {
   margin: 0px;
   padding: $header-height 0px 0px 0px;
 }
+
+.carousel {
+  .item {height: 74vh;}
+  .first {background: #D98F4F;}
+  .second {background: #2c9cae;}
+  .carousel-indicators {margin-bottom: 0;}
+}
+
 
 //mobile view
 @media (max-width: 767px) {
@@ -75,11 +82,14 @@ body {
     display: block;
   }
   #main {
-  	width:calc(100% - 250px);
+  	width:calc(100% - 220px);
+    padding-left: 5px;
+    padding-right: 5px;
   	float: right;
   }
   .navbar-as-sidebar {
-      position: absolute;
+      position: relative;
+      float: left;
       overflow-y: scroll;
       height: 100%;
   }
@@ -105,6 +115,10 @@ body {
     .address {
       text-align: right;
       margin-top: 5px;
+    }
+    .weather {
+      text-align: right;
+      font-style: italic;
     }
   }
 

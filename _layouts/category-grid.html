@@ -1,0 +1,28 @@
+---
+layout: home
+---
+
+{% assign products_hash = site.data.{{ page.product-collection }} %}
+{% assign products = products_hash[{{page.product-collection}}] %}
+<div class="page-header text-center">
+  <h2>{{ page.title }}</h2>
+</div>
+{{ page.content }}
+<div id="products" class="row list-group">
+  {% for product in products %}
+    <div class="item  col-xs-4 col-lg-4">
+      <a href="{{ "/" | append: product.slug | prepend: page.product-collection | prepend: '/' | prepend: site.baseurl }}">
+        <div class="thumbnail">
+          <img class="group list-group-image" src="{{ "/assets/" | append: product.cover-photo | prepend: site.baseurl }}" alt="product image" />
+          <div class="caption">
+            <h4 class="group inner list-group-item-heading">{{ product.name }}</h4>
+            <p class="group inner list-group-item-text">
+              {{ product.short-description }}
+            </p>
+            {{content}}
+          </div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>

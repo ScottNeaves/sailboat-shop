@@ -13,10 +13,10 @@ $(document).ready(function() {
     woeid: '',
     unit: 'f',
     success: function(weather) {
-      html = '<em><h5>Austin Conditions: '
+      html = '<h5 class="weather">Austin Conditions: '
       html += weather.temp+'&deg;'+weather.units.temp+', ';
       html += weather.currently+', ';
-      html += 'wind '+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</h5></em>';
+      html += 'wind '+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</h5>';
 
       $("#weather").html(html);
     },
