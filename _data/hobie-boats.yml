@@ -5,7 +5,6 @@
 #   crew-size: 1-2
 #   length: 12 feet
 #   weight: 195 lbs
-#   price: $3,699.00
 #   **Note: paths to photos are all relative to the /assets directory
 #   cover-photo: bravo/bravo.png
 #   photos:
@@ -21,7 +20,6 @@
   crew-size: 1-2
   length: 12 feet
   weight: 195 lbs
-  price: $3,699.00
   cover-photo: bravo/bravo.png
   photos:
     - bravo/bravo-in-action-1.jpg
@@ -36,7 +34,6 @@
   crew-size: 3-4
   length: 16 feet, 7 inches
   weight: 390 lbs
-  price: $8,399.00
   cover-photo: getaway/getaway.png
   photos:
    - getaway/getaway-in-action-1.jpg
@@ -51,7 +48,6 @@
   crew-size: 2
   length: 13 feet
   weight: 245 lbs
-  price: $5,799.00
   cover-photo: wave/wave.png
   photos:
    - wave/wave-in-action-1.jpg
@@ -66,7 +62,6 @@
   crew-size: 3-4
   length: 16 feet
   weight: 388 lbs
-  price: $8,399.00
   cover-photo: t2/t2.png
   photos:
    - t2/t2-in-action-1.jpg
@@ -81,7 +76,6 @@
   crew-size: 1-4
   length: 16 feet 7 inches
   weight: 320 lbs
-  price: $8,399.00
   cover-photo: hobie-16/hobie-16.png
   photos:
    - hobie-16/hobie-16-in-action-1.jpg
@@ -96,7 +90,6 @@
   crew-size: 2-3
   length: 18 feet
   weight: 397 lbs
-  price: $8,399.00
   cover-photo: wild-cat/wild-cat.png
   photos:
    - wild-cat/wild-cat-in-action-1.jpg
@@ -111,7 +104,6 @@
   crew-size: 1
   length: 16 feet 7 inches
   weight: 102 lbs
-  price: $8,399.00
   cover-photo: mirage-adventure-island/mirage-adventure-island.png
   photos:
    - mirage-adventure-island/mirage-adventure-island-in-action-1.jpg
@@ -126,7 +118,6 @@
   crew-size: 1-2
   length: 18 feet 6 inches
   weight: 130 lbs
-  price: $8,399.00
   cover-photo: mirage-tandem-island/mirage-tandem-island.png
   photos:
    - mirage-tandem-island/mirage-tandem-island-in-action-1.jpg

@@ -2,7 +2,6 @@
   slug: anchors
   short-description: Holds the boat in the same spot on the water. Holds the boat in the same spot on the water by sticking to the lake floor. Holds the boat in the same spot on the water by sticking to the lake floor. Holds the boat in the same spot on the water by sticking to the lake floor.
   long-description: Holds the boat in the same spot on the water by sticking to the lake floor. Holds the boat in the same spot on the water by sticking to the lake floor. Holds the boat in the same spot on the water by sticking to the lake floor. Holds the boat in the same spot on the water by sticking to the lake floor.
-  price: $3,699.00
   cover-photo: anchor/anchor.jpg
   photos:
     # - bravo/bravo-in-action-1.jpg
@@ -14,7 +13,6 @@
   slug: blocks
   short-description: Blocks are great.
   long-description: Blocks are great, extra great.
-  price: $3,699.00
   cover-photo: blocks/blocks.jpg
   photos:
     # - bravo/bravo-in-action-1.jpg
@@ -26,7 +24,6 @@
   slug: fenders
   short-description: Fenders keep your boat from crashing into the dock.
   long-description: Fenders keep your boat from crashing into the dock. Wouldn't want to scratch your boat up now would ya?
-  price: $3,699.00
   cover-photo: fenders/fenders.jpg
   photos:
     # - bravo/bravo-in-action-1.jpg
@@ -38,7 +35,6 @@
   slug: life-vests
   short-description: What if you fell into the water? You'd wanna float!
   long-description: What if you fell into the water? You'd wanna float. That way you're easier to rescue!
-  price: $3,699.00
   cover-photo: life-vests/life-vests.jpg
   photos:
     # - bravo/bravo-in-action-1.jpg
@@ -50,7 +46,6 @@
   slug: line
   short-description: Gotta rig that boat somehow.
   long-description: Gotta rig that boat somehow. Line is the way to go!
-  price: $3,699.00
   cover-photo: line/line.jpg
   photos:
     - line/line-1.jpg
@@ -62,7 +57,6 @@
   slug: shackles
   short-description: Gotta shackle that line.
   long-description: Gotta shackle that line. Shackle-shmackle!
-  price: $3,699.00
   cover-photo: shackles/shackles.jpg
   photos:
     # - bravo/bravo-in-action-1.jpg
@@ -74,7 +68,6 @@
   slug: standing-rigging
   short-description: Gotta keep the mast up!
   long-description: Gotta keep the mast up! Standing rigging to the rescue.
-  price: $3,699.00
   cover-photo: standing-rigging/standing-rigging.jpg
   photos:
     # - bravo/bravo-in-action-1.jpg
@@ -86,7 +79,6 @@
   slug: turnbuckles
   short-description: Turning and turning, all day long.
   long-description: Turning and turning, all day long. Buckle it up!
-  price: $3,699.00
   cover-photo: turnbuckles/turnbuckles.jpg
   photos:
     # - bravo/bravo-in-action-1.jpg
@@ -98,7 +90,6 @@
   slug: towables
   short-description: Have some fun in the sun with a towable!
   long-description: Have some fun in the sun with a towable!
-  price: $3,699.00
   cover-photo: towables/towables.jpg
   photos:
     - towables/towables-1.jpg
@@ -110,7 +101,6 @@
   slug: dockline
   short-description: Line for the dock
   long-description: Gotta have line for the dock
-  price: $3,699.00
   cover-photo: dockline/dockline.jpg
   photos:
     # - towables/towables-1.jpg

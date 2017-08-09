@@ -2,7 +2,6 @@
   slug: standing-rigging
   short-description: We'll rig up your standing rigging, no problem!
   long-description: We'll rig up your standing rigging, no problem! It's our favorite thing to do!
-  price: $3,699.00
   cover-photo: standing-rigging/standing-rigging.jpg
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
@@ -14,7 +13,6 @@
   slug: running-rigging
   short-description: We run circles around running rigging!
   long-description: We run circles around running rigging! Easy-peasy.
-  price: $3,699.00
   cover-photo: running-rigging/running-rigging.jpg
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
@@ -26,7 +24,6 @@
   slug: lifelines
   short-description: Lifelines will keep you on your boat instead of in the water!
   long-description: Lifelines will keep you on your boat instead of in the water! And we love installing them.
-  price: $3,699.00
   cover-photo: lifelines/lifelines.jpg
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
