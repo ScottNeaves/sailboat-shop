@@ -5,6 +5,7 @@
 //header
 $header-color: white; //#cfd1d3;
 $header-height: 115px;
+$primary-color: #1F7D7B;
 
 .navbar-fixed-top {
     height: $header-height;
@@ -33,6 +34,10 @@ body {
   .carousel-indicators {margin-bottom: 0;}
 }
 
+.emph-text {
+  color: $primary-color;
+  font-weight: bold;
+}
 
 //mobile view
 @media (max-width: 767px) {
