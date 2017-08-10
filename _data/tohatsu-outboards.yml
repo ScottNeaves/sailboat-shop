@@ -2,7 +2,7 @@
   slug: 9-8hp
   short-description: 9.8 HP, just enough oomph to get you zipping around the harbor.
   long-description: 9.8 HP, just enough oomph to get you zipping around the harbor. More details.
-  cover-photo: tohatsu/9-8.jpg
+  cover-photo: tohatsu/9-8.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
     # - used-boat-1/used-boat-1-in-action-2.jpg
@@ -24,7 +24,7 @@
   slug: 6hp
   short-description: 6 HP, just enough oomph to get you zipping around the harbor.
   long-description: 6 HP, just enough oomph to get you zipping around the harbor. More details.
-  cover-photo: tohatsu/6.jpg
+  cover-photo: tohatsu/6.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
     # - used-boat-1/used-boat-1-in-action-2.jpg
@@ -35,7 +35,7 @@
   slug: 5hp-lpg
   short-description: 5 HP, powered by Liquid Propane Gas.
   long-description: 5 HP, powered by Liquid Propane Gas.
-  cover-photo: tohatsu/5-lpg.jpg
+  cover-photo: tohatsu/5-lpg.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
     # - used-boat-1/used-boat-1-in-action-2.jpg
@@ -46,7 +46,7 @@
   slug: 5hp
   short-description: 5 HP, just enough oomph to get you zipping around the harbor.
   long-description: 5 HP, just enough oomph to get you zipping around the harbor. More details.
-  cover-photo: tohatsu/5.jpg
+  cover-photo: tohatsu/5.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
     # - used-boat-1/used-boat-1-in-action-2.jpg
@@ -57,7 +57,7 @@
   slug: 4hp
   short-description: 4 HP, just enough oomph to get you zipping around the harbor.
   long-description: 4 HP, just enough oomph to get you zipping around the harbor. More details.
-  cover-photo: tohatsu/4.jpg
+  cover-photo: tohatsu/4.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
     # - used-boat-1/used-boat-1-in-action-2.jpg
@@ -68,7 +68,7 @@
   slug: 3-5hp
   short-description: 3.5 HP, just enough oomph to get you zipping around the harbor.
   long-description: 3.5 HP, just enough oomph to get you zipping around the harbor. More details.
-  cover-photo: tohatsu/3-5.jpg
+  cover-photo: tohatsu/3-5.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
     # - used-boat-1/used-boat-1-in-action-2.jpg
@@ -79,7 +79,7 @@
   slug: 2-5hp
   short-description: 2.5 HP, just enough oomph to get you around the harbor.
   long-description: 2.5 HP, just enough oomph to get you around the harbor. More details.
-  cover-photo: tohatsu/2-5.jpg
+  cover-photo: tohatsu/2-5.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
     # - used-boat-1/used-boat-1-in-action-2.jpg

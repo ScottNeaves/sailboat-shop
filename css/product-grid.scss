@@ -2,6 +2,12 @@
 # Front matter comment to ensure Jekyll properly reads file as a sass file.
 ---
 
+$sidebar-color: #F7941E;
+$primary-color: #1F7D7B;
+$primary-color-extra-light: #adebea;
+$primary-color-light: #5bd7d5;
+$secondary-color: white;
+
 .glyphicon {
   margin-right: 5px;
 }
@@ -69,6 +75,14 @@
   overflow: hidden;
 }
 
+.grid-item {
+  border: 0;
+  background: $primary-color-extra-light;
+  border-radius: 10px;
+}
+.grid-item:hover {
+  background: $primary-color-light;
+}
 
 /* mobile view */
 
