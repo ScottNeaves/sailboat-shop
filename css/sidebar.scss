@@ -11,7 +11,7 @@ $secondary-color: white;
   font-size: 12px;
   font-weight: 200;
   background-color: $sidebar-color;
-  width: 220px;
+  width: 245px;
   height: 100%;
   color: #e1ffff;
 }
@@ -31,6 +31,7 @@ $secondary-color: white;
 }
 .nav-menu a li {
   color: $secondary-color;
+  font-size: 14px;
 }
 .nav-menu li a i {
   padding-left: 10px;
