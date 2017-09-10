@@ -1,7 +1,7 @@
 - name: 9.8 HP Tohatsu Outboard
   slug: 9-8hp
-  short-description: 9.8 HP, just enough oomph to get you zipping around the harbor.
-  long-description: 9.8 HP, just enough oomph to get you zipping around the harbor. More details.
+  short-description: This fuel-efficient, reliable, lightweight 9.8 hp 4-stroke has set the standard in portable outboard power! The 9.8 HP model comes with a unique power tilt feature.
+  long-description:
   cover-photo: tohatsu/9-8.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
@@ -11,8 +11,8 @@
 
 - name: 8 HP Tohatsu Outboard
   slug: 8hp
-  short-description: 8 HP, just enough oomph to get you zipping around the harbor.
-  long-description: 8 HP, just enough oomph to get you zipping around the harbor. More details.
+  short-description: Tohatsu's 8 HP outboards are lightweight and compact without compromising reliability or quality performance.
+  long-description:
   cover-photo: tohatsu/8.png
   photos:
     # - used-boat-1/used-boat-1-in-action-1.jpg
@@ -22,7 +22,7 @@
 
 - name: 6 HP Tohatsu Outboard
   slug: 6hp
-  short-description: 6 HP, just enough oomph to get you zipping around the harbor.
+  short-description: Tohatsu's 6 hp 4-stroke provides all the power you need for motoring in a small craft, along with best-in-class fuel efficiency and reliability.
   long-description: 6 HP, just enough oomph to get you zipping around the harbor. More details.
   cover-photo: tohatsu/6.png
   photos:
@@ -33,7 +33,7 @@
 
 - name: 5 HP LPG Tohatsu Outboard
   slug: 5hp-lpg
-  short-description: 5 HP, powered by Liquid Propane Gas.
+  short-description: Thanks to Tohatsu’s Liquefied Petroleum Gas outboard, sailors no longer need to carry gasoline. The 5hp LPG's fuel line connects to any standard propane tank.
   long-description: 5 HP, powered by Liquid Propane Gas.
   cover-photo: tohatsu/5-lpg.png
   photos:
@@ -44,7 +44,7 @@
 
 - name: 5 HP Tohatsu Outboard
   slug: 5hp
-  short-description: 5 HP, just enough oomph to get you zipping around the harbor.
+  short-description: Clean-burning, light, and compact, this little 4-stroke is perfect for small-craft motoring.
   long-description: 5 HP, just enough oomph to get you zipping around the harbor. More details.
   cover-photo: tohatsu/5.png
   photos:
@@ -55,7 +55,7 @@
 
 - name: 4 HP Tohatsu Outboard
   slug: 4hp
-  short-description: 4 HP, just enough oomph to get you zipping around the harbor.
+  short-description: Clean-burning, light, and compact, this little 4-stroke is perfect for small-craft motoring. Comes with an external gas tank connector for longer outings.
   long-description: 4 HP, just enough oomph to get you zipping around the harbor. More details.
   cover-photo: tohatsu/4.png
   photos:
@@ -66,7 +66,7 @@
 
 - name: 3.5 HP Tohatsu Outboard
   slug: 3-5hp
-  short-description: 3.5 HP, just enough oomph to get you zipping around the harbor.
+  short-description: The 3.5 hp 4-stroke is the perfect outboard for a variety of small boats. This dynamic little powerhouse may be petite in size, but has all of the benefits you need in an outboard.
   long-description: 3.5 HP, just enough oomph to get you zipping around the harbor. More details.
   cover-photo: tohatsu/3-5.png
   photos:
@@ -77,7 +77,7 @@
 
 - name: 2.5 HP Tohatsu Outboard
   slug: 2-5hp
-  short-description: 2.5 HP, just enough oomph to get you around the harbor.
+  short-description: The 2.5 hp Tohatsu 4-stroke is the perfect outboard for a small canoe, dingy, or sailboat.
   long-description: 2.5 HP, just enough oomph to get you around the harbor. More details.
   cover-photo: tohatsu/2-5.png
   photos:

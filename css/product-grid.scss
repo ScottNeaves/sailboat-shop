@@ -20,7 +20,8 @@ $secondary-color: white;
   border-radius: 0px;
   img {
     max-width:100%;
-    max-height:150px;
+    min-height: 300px;
+    max-height:300px;
     object-fit:contain;
     display:block;
     margin-left:auto;
@@ -70,8 +71,8 @@ $secondary-color: white;
 
 .list-group-item-text {
   margin: 0 0 11px;
-  min-height: 4em;
-  max-height: 4em;
+  min-height: 7em;
+  max-height: 7em;
   overflow: hidden;
 }
 
