@@ -3,129 +3,40 @@
   short-description: We carry a variety of types anchors (incl. fluke anchors and mushroom anchors) for boats of different sizes. Come check out what we have in stock for your boat!
   long-description: Long description.
   cover-photo: anchor/anchor.jpg
-  photos:
-    # - bravo/bravo-in-action-1.jpg
-    # - bravo/bravo-in-action-2.jpg
-    # - bravo/bravo-in-action-3.jpg
-    # - bravo/bravo-in-action-4.jpg
-
-# - name: Blocks
-#   slug: blocks
-#   short-description: Blocks are great.
-#   long-description: Blocks are great, extra great.
-#   cover-photo: blocks/blocks.jpg
-#   photos:
-#     # - bravo/bravo-in-action-1.jpg
-#     # - bravo/bravo-in-action-2.jpg
-#     # - bravo/bravo-in-action-3.jpg
-#     # - bravo/bravo-in-action-4.jpg
 
 - name: Sailing Hardware
   slug: sailing-hardware
   short-description: Blocks, standing rigging, shackles, turnbuckles - we have pretty much everything. And what we don't have, we can order for you.
   long-description: Long description
   cover-photo: sailing-hardware/sailing-hardware.jpg
-  photos:
-    # - bravo/bravo-in-action-1.jpg
-    # - bravo/bravo-in-action-2.jpg
-    # - bravo/bravo-in-action-3.jpg
-    # - bravo/bravo-in-action-4.jpg
 
 - name: Fenders
   slug: fenders
   short-description: Our selection of fenders in a variety of sizes and colors will keep your boat safe at the dock.
   long-description: Long description.
   cover-photo: fenders/fenders.jpg
-  photos:
-    # - bravo/bravo-in-action-1.jpg
-    # - bravo/bravo-in-action-2.jpg
-    # - bravo/bravo-in-action-3.jpg
-    # - bravo/bravo-in-action-4.jpg
 
 - name: Life Vests
   slug: life-vests
   short-description: Our selection of life vests includes both children's and adult sizes and multiple brands.
   long-description: Long description.
   cover-photo: life-vests/life-vests.jpg
-  photos:
-    # - bravo/bravo-in-action-1.jpg
-    # - bravo/bravo-in-action-2.jpg
-    # - bravo/bravo-in-action-3.jpg
-    # - bravo/bravo-in-action-4.jpg
 
 - name: Line
   slug: line
   short-description: You can get just about any type of line in any length you want at our Wall of Line. Precut packages in standard lengths are also available.
   long-description: Gotta rig that boat somehow. Line is the way to go!
   cover-photo: line/line.jpg
-  photos:
-    - line/line-1.jpg
-    # - bravo/bravo-in-action-2.jpg
-    # - bravo/bravo-in-action-3.jpg
-    # - bravo/bravo-in-action-4.jpg
-
-# - name: Shackles
-#   slug: shackles
-#   short-description: Gotta shackle that line.
-#   long-description: Gotta shackle that line. Shackle-shmackle!
-#   cover-photo: shackles/shackles.jpg
-#   photos:
-#     # - bravo/bravo-in-action-1.jpg
-#     # - bravo/bravo-in-action-2.jpg
-#     # - bravo/bravo-in-action-3.jpg
-#     # - bravo/bravo-in-action-4.jpg
-
-# - name: Standing Rigging
-#   slug: standing-rigging
-#   short-description: Gotta keep the mast up!
-#   long-description: Gotta keep the mast up! Standing rigging to the rescue.
-#   cover-photo: standing-rigging/standing-rigging.jpg
-#   photos:
-#     # - bravo/bravo-in-action-1.jpg
-#     # - bravo/bravo-in-action-2.jpg
-#     # - bravo/bravo-in-action-3.jpg
-#     # - bravo/bravo-in-action-4.jpg
-
-# - name: Turnbuckles
-#   slug: turnbuckles
-#   short-description: Turning and turning, all day long.
-#   long-description: Turning and turning, all day long. Buckle it up!
-#   cover-photo: turnbuckles/turnbuckles.jpg
-#   photos:
-#     # - bravo/bravo-in-action-1.jpg
-#     # - bravo/bravo-in-action-2.jpg
-#     # - bravo/bravo-in-action-3.jpg
-#     # - bravo/bravo-in-action-4.jpg
 
 - name: Towables
   slug: towables
   short-description: Have some fun in the sun with a towable from The Sailboat Shop! We carry AIRHEAD and Big Mable towables, come check out the selection today.
   long-description: Long description.
   cover-photo: towables/towables.jpg
-  photos:
-    - towables/towables-1.jpg
-    # - bravo/bravo-in-action-2.jpg
-    # - bravo/bravo-in-action-3.jpg
-    # - bravo/bravo-in-action-4.jpg
+
 
 - name: Batteries
   slug: batteries
   short-description: We carry an extensive selection of marine batteries, including starting and deep-cycle batteries. Ask at the desk for the battery that best suits your needs.
   long-description: Long description.
   cover-photo: batteries/batteries.jpg
-  photos:
-    - towables/towables-1.jpg
-    # - bravo/bravo-in-action-2.jpg
-    # - bravo/bravo-in-action-3.jpg
-    # - bravo/bravo-in-action-4.jpg
-
-# - name: Dockline
-#   slug: dockline
-#   short-description: Line for the dock
-#   long-description: Gotta have line for the dock
-#   cover-photo: dockline/dockline.jpg
-#   photos:
-#     # - towables/towables-1.jpg
-#     # - bravo/bravo-in-action-2.jpg
-#     # - bravo/bravo-in-action-3.jpg
-#     # - bravo/bravo-in-action-4.jpg

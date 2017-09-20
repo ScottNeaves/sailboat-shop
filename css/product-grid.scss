@@ -81,7 +81,7 @@ $secondary-color: white;
   background: $primary-color-extra-light;
   border-radius: 10px;
 }
-.grid-item:hover {
+a > .grid-item:hover {
   background: $primary-color-light;
 }
 

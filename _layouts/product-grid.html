@@ -10,7 +10,9 @@ layout: page
 <div id="products" class="row list-group">
   {% for product in products %}
     <div class="item  col-xs-4 col-lg-4">
+      {% if page.tiles-clickable == "true" %}
       <a href="{{ "/" | append: product.slug | prepend: page.product-collection | prepend: '/' | prepend: site.baseurl }}">
+      {% endif%}
         <div class="thumbnail grid-item">
           <img class="group list-group-image" src="{{ "/assets/" | append: product.cover-photo | prepend: site.baseurl }}" alt="product image" />
           <div class="caption">
@@ -20,7 +22,9 @@ layout: page
             </p>
           </div>
         </div>
+      {% if page.tiles-clickable == "true" %}
       </a>
+      {% endif%}
     </div>
   {% endfor %}
 </div>
