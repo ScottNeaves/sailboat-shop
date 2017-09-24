@@ -69,10 +69,10 @@ $secondary-color: white;
   clear: both;
 }
 
-.list-group-item-text {
+.product-description {
   margin: 0 0 11px;
   min-height: 7em;
-  max-height: 7em;
+  max-height: none;
   overflow: hidden;
 }
 

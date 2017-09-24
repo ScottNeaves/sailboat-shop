@@ -28,13 +28,29 @@ body {
   padding: $header-height 0px 0px 0px;
 }
 
-.carousel {
-  margin-bottom: 10px;
-  .item {height: 74vh;}
-  .first {background: #D98F4F;}
-  .second {background: #2c9cae;}
-  .carousel-indicators {margin-bottom: 0;}
+.carousel{
+    background: #2f4357;
 }
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+//
+// .carousel {
+//   margin-bottom: 10px;
+//   // .item {height: 74vh;}
+//   .first {background: #2c9cae;}
+//   .second {background: #2c9cae;}
+//   .carousel-indicators {margin-bottom: 0;}
+// }
+//
+// .carousel-inner > .item {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
 
 .callout-block-left {
   height: 300px;

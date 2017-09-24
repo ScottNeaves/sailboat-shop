@@ -3,69 +3,91 @@ layout: home
 ---
 
 <!-- Page Content -->
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Carousel indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="/assets/carousel/carousel-1.jpg" alt="First Slide">
+        </div>
+        <div class="item">
+            <img src="/assets/carousel/carousel-2.jpg" alt="Second Slide">
+        </div>
+        <div class="item">
+            <img src="/assets/carousel/carousel-3.jpg" alt="Third Slide">
+        </div>
+    </div>
+    <!-- Carousel controls -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
 
-      <!-- carousel indicators -->
+    <!-- <div id="mycarousel" class="carousel slide" data-ride="carousel">
+
       <ol class="carousel-indicators">
         <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
         <li data-target="#mycarousel" data-slide-to="1"></li>
       </ol>
 
-      <!-- wrapper for slides -->
       <div class="carousel-inner" role="listbox">
 
-        <!-- first slide -->
         <div class="item first active" id="1">
-        </div><!-- /item -->
+          <img src="../assets/carousel/lol-1.jpg">
+        </div>
 
-        <!-- second slide -->
         <div class="item second" id="2">
+          <img src="../assets/carousel/carousel-2.jpg">
+        </div>
 
-        </div><!-- /item -->
-
-      </div><!--/carousel-inner -->
-    </div>
-    <!-- <div class="well">
-      <img src="../assets/storefront.png" style="max-width:100%; max-height:300px; object-fit:contain; display:block; margin-left:auto; margin-right:auto;">
+      </div>
     </div> -->
-    <div class="row">
-      <div class="brand-banner">
-        <div class="col-xs-6 col-md-2">
-          <img src="../assets/brands/airhead.png" height=50 width=150>
-        </div>
-        <div class="col-xs-6 col-md-2">
-          <img src="../assets/brands/continental.png" height=50 width=150>
-        </div>
-        <div class="col-xs-6 col-md-2">
-          <img src="../assets/brands/harken.png" height=50 width=150>
-        </div>
-        <div class="col-xs-6 col-md-2">
-          <img src="../assets/brands/hobie.png" height=50 width=150>
-        </div>
-        <div class="col-xs-6 col-md-2">
-          <img src="../assets/brands/rule.jpg" height=50 width=150>
-        </div>
-        <div class="col-xs-6 col-md-2">
-          <img src="../assets/brands/samson.png" height=50 width=150>
-        </div>
+<div class="row">
+  <div class="brand-banner">
+    <div class="col-xs-6 col-md-2">
+      <img src="../assets/brands/airhead.png" height=50 width=150>
+    </div>
+    <div class="col-xs-6 col-md-2">
+      <img src="../assets/brands/continental.png" height=50 width=150>
+    </div>
+    <div class="col-xs-6 col-md-2">
+      <img src="../assets/brands/harken.png" height=50 width=150>
+    </div>
+    <div class="col-xs-6 col-md-2">
+      <img src="../assets/brands/hobie.png" height=50 width=150>
+    </div>
+    <div class="col-xs-6 col-md-2">
+      <img src="../assets/brands/rule.jpg" height=50 width=150>
+    </div>
+    <div class="col-xs-6 col-md-2">
+      <img src="../assets/brands/samson.png" height=50 width=150>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <div class="callout-block-left">
+      <div class="callout-container">
+        <h3>Phone: (512) 454-7171</h3>
+        <h4>Hours: 7:30am - 7:00pm daily</h4>
+        <h4><a href="https://www.google.com/maps/place/Sailboat+Shop,+3611+Ranch+Rd+620+N+b,+Austin,+TX+78734/@30.3970678,-97.9303034,14z/data=!4m2!3m1!1s0x8644ca3cc5cd4de5:0xb4cad16ed3008472">3611 Ranch Rd 620 N b, Austin, TX 78734</a></h4>
       </div>
     </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="callout-block-left">
-          <div class="callout-container">
-            <h3>Phone: (512) 454-7171</h3>
-            <h4>Hours: 7:30am - 7:00pm daily</h4>
-            <h4><a href="https://www.google.com/maps/place/Sailboat+Shop,+3611+Ranch+Rd+620+N+b,+Austin,+TX+78734/@30.3970678,-97.9303034,14z/data=!4m2!3m1!1s0x8644ca3cc5cd4de5:0xb4cad16ed3008472">3611 Ranch Rd 620 N b, Austin, TX 78734</a></h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="callout-block-right">
-          <iframe class="embedded-map" src="https://www.google.com/maps/embed/v1/place?q=Sailboat+Shop,+3611+Ranch+Rd+620+N+b,+Austin,+TX+78734
-              &zoom=17
-              &key=AIzaSyCGVj7SMvGLPbwdNjmdhGfvvY0a5ZaePqY">
-          </iframe>
-        </div>
-      </div>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <div class="callout-block-right">
+      <iframe class="embedded-map" src="https://www.google.com/maps/embed/v1/place?q=Sailboat+Shop,+3611+Ranch+Rd+620+N+b,+Austin,+TX+78734
+          &zoom=17
+          &key=AIzaSyCGVj7SMvGLPbwdNjmdhGfvvY0a5ZaePqY">
+      </iframe>
     </div>
+  </div>
+</div>

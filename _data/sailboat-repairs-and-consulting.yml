@@ -1,32 +1,14 @@
 - name: Standing Rigging
   slug: standing-rigging
-  short-description: We'll rig up your standing rigging, no problem!
-  long-description: We'll rig up your standing rigging, no problem! It's our favorite thing to do!
+  short-description: We are experienced with setting up standing rigging on all kinds of boats, large and small. Let us help you get your standing rigging stood up!
   cover-photo: standing-rigging/standing-rigging.jpg
-  photos:
-    # - used-boat-1/used-boat-1-in-action-1.jpg
-    # - used-boat-1/used-boat-1-in-action-2.jpg
-    # - used-boat-1/used-boat-1-in-action-3.jpg
-    # - used-boat-1/used-boat-1-in-action-4.jpg
 
 - name: Running Rigging
   slug: running-rigging
-  short-description: We run circles around running rigging!
-  long-description: We run circles around running rigging! Easy-peasy.
+  short-description: Running rigging is one of our specialities - we'll get your running rigging in ship-shape in no time.
   cover-photo: running-rigging/running-rigging.jpg
-  photos:
-    # - used-boat-1/used-boat-1-in-action-1.jpg
-    # - used-boat-1/used-boat-1-in-action-2.jpg
-    # - used-boat-1/used-boat-1-in-action-3.jpg
-    # - used-boat-1/used-boat-1-in-action-4.jpg
 
 - name: Lifelines
   slug: lifelines
-  short-description: Lifelines will keep you on your boat instead of in the water!
-  long-description: Lifelines will keep you on your boat instead of in the water! And we love installing them.
+  short-description: We can help you stay safe by properly equipping your sailboat with lifelines - we'll be happy to help.
   cover-photo: lifelines/lifelines.jpg
-  photos:
-    # - used-boat-1/used-boat-1-in-action-1.jpg
-    # - used-boat-1/used-boat-1-in-action-2.jpg
-    # - used-boat-1/used-boat-1-in-action-3.jpg
-    # - used-boat-1/used-boat-1-in-action-4.jpg
