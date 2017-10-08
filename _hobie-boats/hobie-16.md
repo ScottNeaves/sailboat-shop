@@ -1,4 +1,4 @@
 ---
 slug: hobie-16
-layout: product-detail
+layout: boat-product-detail
 ---

@@ -1,4 +1,4 @@
 ---
 slug: wave
-layout: product-detail
+layout: boat-product-detail
 ---

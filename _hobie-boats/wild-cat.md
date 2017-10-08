@@ -1,4 +1,4 @@
 ---
 slug: wild-cat
-layout: product-detail
+layout: boat-product-detail
 ---

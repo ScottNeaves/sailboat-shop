@@ -1,4 +1,4 @@
 ---
 slug: getaway
-layout: product-detail
+layout: boat-product-detail
 ---

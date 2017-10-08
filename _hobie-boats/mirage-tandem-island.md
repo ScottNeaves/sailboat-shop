@@ -1,4 +1,4 @@
 ---
 slug: mirage-tandem-island
-layout: product-detail
+layout: boat-product-detail
 ---

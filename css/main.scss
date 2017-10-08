@@ -147,8 +147,9 @@ body {
   .navbar-as-sidebar {
       position: relative;
       float: left;
-      overflow-y: scroll;
+      overflow-y: hidden;
       height: 100%;
+
   }
   //turn off header navbar
   .navbar-in-header {

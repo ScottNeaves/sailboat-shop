@@ -5,7 +5,7 @@ layout: product-detail
 {% assign products = site.data[page.collection] | where:'slug', page.slug %}
 {% assign product = products[0] %}
 <strong>Specifications:</strong>
-<p class="product-description">
+<p>
   <ul>
     <li>Crew size: {{product.crew-size}}</li>
     <li>Length: {{product.length}}</li>
